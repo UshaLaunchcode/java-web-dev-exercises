@@ -1,0 +1,18 @@
+package org.launchcode.java.demos.lsn6inheritance;
+
+import java.sql.SQLOutput;
+
+public class Main {
+    public static void main(String[] args) {
+        HouseCat garfield = new HouseCat("Garfield", 12);
+        HouseCat spike = new HouseCat("Spike");
+        Cat plainCat =new Cat(8.6);
+        HouseCat cheshireCat = new HouseCat("Cheshire", 12);
+        //garfield.eat();
+        //System.out.println(garfield.isTired());  //prints true
+        //System.out.println(spike.getWeight()); //prints 13
+       // System.out.println(plainCat.noise());  // prints "Meeeeeeooooowww!"
+        System.out.println(cheshireCat.noise());  // prints "Hello, my name is Cheshire!"
+
+    }
+}
